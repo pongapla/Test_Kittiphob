@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Vue / Vite
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Playwright
+playwright-report/
+test-results/
+
+# Go
+*.exe
+*.test
+*.out
+coverage.out
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# macOS / Editors
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary files
+*.log
+*.backup
+*.tmp
